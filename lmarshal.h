@@ -8,4 +8,4 @@
 
 #define LUA_MARSHALLIBNAME "marshal"
 
-int luaopen_marshal(lua_State *L);
+LUALIB_API int luaopen_marshal(lua_State *L);

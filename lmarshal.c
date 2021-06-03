@@ -588,9 +588,9 @@ static const luaL_Reg R[] =
         {"clone", mar_clone},
         {NULL, NULL}};
 
-int luaopen_marshal(lua_State *L)
+LUALIB_API int luaopen_marshal(lua_State *L)
 {
     lua_newtable(L);
-    luaL_register(L, NULL, R);
+    luaL_register(L, LUA_MARSHALLIBNAME, R);
     return 1;
 }
