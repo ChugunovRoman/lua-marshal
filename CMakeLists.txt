@@ -1,4 +1,4 @@
-project(luaMarshal)
+project(xrMarshal)
 
 set(SRC_FILES
     "lmarshal.h"
